@@ -34,6 +34,8 @@ package() {
 	install -Dm664 ./.Xresources		"$pkgdir/usr/local/share/travisconfig/.Xresources"
 	install -Dm664 ./.vimrc			"$pkgdir/usr/local/share/travisconfig/.vimrc"
 	install -Dm664 ./i3/config		"$pkgdir/usr/local/share/travisconfig/i3/config"
+	install -Dm664 ./polybar/config.ini	"$pkgdir/usr/local/share/travisconfig/polybar/config.ini"
+	install -Dm664 ./polybar/launch.sh	"$pkgdir/usr/local/share/travisconfig/polybar/launch.sh"
 	install -Dm664 ./.xinitrc		"$pkgdir/usr/local/share/travisconfig/.xinitrc"
 	install -Dm755 ./.xsession		"$pkgdir/usr/local/share/travisconfig/.xsession"
 	install -Dm755 ./script/travisconfig.sh	"$pkgdir/usr/local/share/travisconfig/script/travisconfig.sh"
