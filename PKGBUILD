@@ -16,7 +16,7 @@ depends=(
  	'rxvt-unicode'
  	'gvim'
  	'i3-wm'
-# 	'polybar'
+ 	'polybar'
  	'dmenu'
  	'firefox'
  	'ranger'
