@@ -9,8 +9,8 @@
 
 ## arg 1:  the new package version
 post_install() {
+	rm -f /bin/travisconfig
 	ln -s /usr/local/share/travisconfig/script/travisconfig.sh /bin/travisconfig
-	
 }
 
 ## arg 1:  the new package version
